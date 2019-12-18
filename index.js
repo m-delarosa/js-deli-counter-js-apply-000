@@ -16,7 +16,7 @@ function currentLine (line) {
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
-    let numberName = []
+    var numberName = []
     for (let i = 0; i < line.length; i++) {
       numberName.push(`${i+1}. ${line[i]}`)
     }
